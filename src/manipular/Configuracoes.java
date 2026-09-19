@@ -23,7 +23,7 @@ public class Configuracoes {
         int opcaog;
         boolean numEncontrado = false;
 
-        System.out.println("Digite o seu numero de conta: ");
+        System.out.println("Digite o seu numero de conta, por favor: ");
         numConta = input.nextLine().trim();
 
         for (Cliente cadaCliente : listaClientes) {
