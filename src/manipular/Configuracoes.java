@@ -23,9 +23,9 @@ public class Configuracoes {
         int opcaog;
         boolean numEncontrado = false;
 
-        System.out.println("Digite o seu numero de conta\n "+
-"Digite um numero valido");
-        numConta = input.nextLine().trim();
+System.out.println("Digite o seu numero de conta, por favor:\n" +
+        "Digite um numero valido");
+numConta = input.nextLine().trim();
 
         for (Cliente cadaCliente : listaClientes) {
             if (cadaCliente.getNumeroConta().equals(numConta)){

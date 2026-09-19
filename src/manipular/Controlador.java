@@ -294,7 +294,5 @@ public class Controlador {
             System.out.println("\nDESTINO    : " + destino.getNome());
             System.out.println("SALDO    : " + destino.getSaldo());
         }
-
-
     }
 }
