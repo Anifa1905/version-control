@@ -156,7 +156,7 @@ numConta = input.nextLine().trim();
                     System.out.print("\n1 - CORRENTE\n" +
                             "2 - POUPANCA\n" +
                             "3 - EMPRESARIAL\n" +
-                            "Escolha um numero de 1 a 3: ");
+                            "Escolha um numero: ");
 
                     int opcaom = input.nextInt();
                     switch (opcaom){
