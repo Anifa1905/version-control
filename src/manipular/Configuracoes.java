@@ -155,7 +155,7 @@ public class Configuracoes {
                     System.out.print("\n1 - CORRENTE\n" +
                             "2 - POUPANCA\n" +
                             "3 - EMPRESARIAL\n" +
-                            "Selecione um tipo: ");
+                            "Selecione um tipo, apenas um: ");
 
                     int opcaom = input.nextInt();
                     switch (opcaom){
