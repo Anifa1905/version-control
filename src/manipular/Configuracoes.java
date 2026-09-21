@@ -156,9 +156,8 @@ numConta = input.nextLine().trim();
                     System.out.print("\n1 - CORRENTE\n" +
                             "2 - POUPANCA\n" +
                             "3 - EMPRESARIAL\n" +
-                            "Escolha um numero: ");
-
-                    int opcaom = input.nextInt();
+"Selecione um tipo, apenas um: ");
+                  int opcaom = input.nextInt();
                     switch (opcaom){
                         case 1:
                             tipoConta = TipoConta.CORRENTE;
